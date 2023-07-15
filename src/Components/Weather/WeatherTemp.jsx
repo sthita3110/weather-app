@@ -1,5 +1,5 @@
 import React from "react";
-
+import { CiTempHigh } from "react-icons/ci";
 const WeatherTemp = ({ toggleClass, toggleClassHandler }) => {
   return (
     <>
@@ -13,6 +13,9 @@ const WeatherTemp = ({ toggleClass, toggleClassHandler }) => {
        lg:py-5
        "
       >
+        <div className="text-3xl">
+          <CiTempHigh />
+        </div>
         <button
           className={`${
             toggleClass === "c"

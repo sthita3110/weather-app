@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     backgroundImage: {
-      weather: "url('/src/Images/weather.jpg')",
-      background: "url('/src/Images/4897726.jpg')",
+      weather: "url('/src/Images/verticalbg.jpg')",
+      background: "url('/src/Images/5333978.jpg')",
     },
     screens: {
       sm: "640px",
