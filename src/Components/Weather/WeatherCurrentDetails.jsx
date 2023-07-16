@@ -3,7 +3,7 @@ import moment from "moment";
 const WeatherCurrentDetails = ({ current, checkTemp }) => {
   return (
     <>
-      <div className="bg-weather bg-no-repeat bg-center bg-cover md:mx-1rem lg:mx-5rem md:py-5 md:px-10 my-5 rounded-lg text-white">
+      <div className="bg-weather bg-no-repeat bg-center bg-cover md:mx-1rem lg:mx-5rem xxs:py-5 md:px-10 my-5 rounded-lg text-white">
         <div className="flex justify-around align-top">
           <div className="flex justify-center items-center flex-col-reverse">
             <p className=" font-bold font-mono text-xl">
@@ -18,7 +18,7 @@ const WeatherCurrentDetails = ({ current, checkTemp }) => {
               />
             </figure>
           </div>
-          <div className="flex-col justify-center items-center text-center text-xl">
+          <div className="flex-col justify-center items-center text-center xxs:text-lg sm:text-xl">
             <p>
               Wind:{" "}
               <span className=" font-semibold ml-5px">
@@ -37,7 +37,7 @@ const WeatherCurrentDetails = ({ current, checkTemp }) => {
                 {current.pressure_in} in
               </span>
             </p>
-            <p className="text-6xl text-yellow-300 font-bold font-mono mt-5px">
+            <p className="xxs:text-4xl xs:text-5xl sm:text-6xl text-yellow-300 font-bold font-mono mt-5px">
               {checkTemp === "c" && <span>{current.temp_c} &deg;C</span>}{" "}
               {checkTemp === "f" && <span>{current.temp_f} &deg;F</span>}{" "}
             </p>

@@ -8,6 +8,8 @@ module.exports = {
       background: "url('/src/Images/5333978.jpg')",
     },
     screens: {
+      xxs: "100px",
+      xs: "370px",
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 
